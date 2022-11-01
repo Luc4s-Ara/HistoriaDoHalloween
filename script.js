@@ -1,7 +1,7 @@
 function menu(){
-    document.getElementById("abrir").style.width ="250px";
-    document.getElementById("conteudo").style.marginLeft ="250px"
-    document.getElementById("alunos").style.marginLeft ="250px"
+    document.getElementById("abrir").style.width ="25%";
+    document.getElementById("conteudo").style.marginLeft ="25%"
+    document.getElementById("alunos").style.marginLeft ="25%"
     document.getElementById("menu").style.display = "none";
 }
 function fechar(){
