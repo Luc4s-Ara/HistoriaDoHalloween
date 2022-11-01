@@ -73,7 +73,7 @@ p{
     color: var(--cor-da-fonte);
 }
 figure{
-    width: 31.25rem;
+    width: 50%;
     margin: 1rem auto;
     
 }
