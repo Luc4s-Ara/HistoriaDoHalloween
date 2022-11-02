@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+html{
+    font-size: 62.5%;
+}
 :root{
     --cor-defundo: hsla(203, 24%, 20%, 0.911);
     --cor-da-fonte:  hsl(0, 0%, 100%);
@@ -11,11 +14,13 @@
     --cor-houver-menu:hsl(28, 88%, 57%);
     --cor-h2-h1: hsl(16, 96%, 48%);
     --cor-descricao:hsl(0, 0%, 13%);
+    
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
     background-color:var(--cor-defundo);
+    font-size: 1.6rem;
 }
 
 a{
@@ -30,7 +35,7 @@ header{
 }
 .menu{
     color: var(--cor-da-fonte);
-    font-size: 25px;
+    font-size: 2.5rem;
 }
 nav{
     height: 100%;
@@ -45,7 +50,7 @@ nav{
 }
 nav a {
     color: var(--cor-da-fonte);
-    font-size: 25px;
+    font-size: 2.5rem;
     display: block;
     padding: 12px 10px 12px 32px;
 }
@@ -56,7 +61,7 @@ nav a:hover{
 
 }
 main{
-    padding: 10px;
+    padding: 1.0rem;
    
 }
 h1{
@@ -66,10 +71,10 @@ h1{
 }
 h2{
     color: var(--cor-h2-h1);
-    margin-top:80px;
+    margin-top:8.0rem;
 }
 p{
-    font-size: 15px;
+    font-size: 1.5rem;
     color: var(--cor-da-fonte);
 }
 figure{
@@ -84,15 +89,15 @@ figure img{
 figcaption {
     background-color: var(--cor-descricao);
     color: var(--cor-da-fonte);
-    padding: 5px;
+    padding: 0.5rem;
     text-align: center;
 }
 section{
-    padding-top: 30px;
+    padding-top: 3.0rem;
 }
 li{
     color: var(--cor-da-fonte);
-    font-size: 20px;
+    font-size: 2.0rem;
     margin: 20px auto;
     list-style-type: none;
 }
@@ -105,5 +110,11 @@ li a:hover{
 address a{
     color: var(--cor-da-fonte);
     background-color: var(--cor-descricao);
-    font-size: 25px;
+    font-size: 2.5rem;
+}
+
+@media(max-width: 500px){
+    html{
+        font-size: 30%;
+    }
 }
