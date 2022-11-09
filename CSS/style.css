@@ -21,6 +21,9 @@ body{
     margin: 0px;
     background-color:var(--cor-defundo);
     font-size: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
 }
 
 a{
@@ -36,6 +39,7 @@ header{
 .menu{
     color: var(--cor-da-fonte);
     font-size: 2.5rem;
+    
 }
 nav{
     height: 100%;
@@ -60,18 +64,17 @@ nav a:hover{
     background-color: var(--cor-da-fonte);
 
 }
-main{
+.conteudo{
     padding: 1.0rem;
-   
 }
 h1{
     text-align: center;
     color: var(--cor-h2-h1);
-    margin: 20px auto;
+    margin: 3.0rem auto;
 }
 h2{
     color: var(--cor-h2-h1);
-    margin-top:8.0rem;
+    margin-top:1.0rem;
 }
 p{
     font-size: 1.5rem;
@@ -92,9 +95,7 @@ figcaption {
     padding: 0.5rem;
     text-align: center;
 }
-section{
-    padding-top: 3.0rem;
-}
+
 li{
     color: var(--cor-da-fonte);
     font-size: 2.0rem;
@@ -107,10 +108,11 @@ li a{
 li a:hover{
     color:var(--cor-h2-h1);
 }
-address a{
-    color: var(--cor-da-fonte);
-    background-color: var(--cor-descricao);
-    font-size: 2.5rem;
+footer{
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    margin-top: auto;
 }
 
 @media(max-width: 500px){
